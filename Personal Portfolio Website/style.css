@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Fplain-background&psig=AOvVaw1cWe6cjZZUtgSb9SIGDo5s&ust=1700679822682000&source=images&cd=vfe&ved=0CBIQjRxqFwoTCIDB7Znk1YIDFQAAAAAdAAAAABAE");
+    font-weight: bolder;
+    margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+header, section, footer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #f211;
+}
+
+section {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+#skills-list li {
+    flex: 1 0 45%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+}
+
+.progress-bar {
+    height: 10px;
+    background-color: #4CAF50;
+    border-radius: 5px;
+}
+
+#contact-form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
